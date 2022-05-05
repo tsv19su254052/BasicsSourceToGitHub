@@ -7,6 +7,7 @@
 
 __version__ = 1.2
 
+
 class RootObjectClass():
     # инициализируем предка (Конструктор класса)
     def __init__(self, Name, Voice):

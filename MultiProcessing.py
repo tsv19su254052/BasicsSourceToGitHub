@@ -1,5 +1,6 @@
 "Простой Python стр. 305 Процессы"
 
+
 import multiprocessing  # имеет более богатый функционал, чем threading
 import os
 
@@ -17,11 +18,9 @@ def doubler(number):
 if __name__ == '__main__':
     numbers = [5, 10, 15, 20, 25]
     procs = []
-
     for index, number in enumerate(numbers):
         proc = multiprocessing.Process(target=doubler, args=(number,))
         procs.append(proc)
         proc.start()
-
     for proc in procs:
         proc.join()

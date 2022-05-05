@@ -1,15 +1,15 @@
 # Interpreter 3.7
 
+
 import pandas
 
+
 # Простой пример DataFrame из трех списков
-df_Example = pandas.DataFrame(
-    [[1, 2, 3, 4, 5],
-     [6, 7, 8, 9, 10],
-     [11, 12, 13, 14, 15]],
-    index=["a", "b", "c"],
-    columns=["aa", "bb", "cc", "dd", "ee"]
-)
+df_Example = pandas.DataFrame([[1, 2, 3, 4, 5],
+                               [6, 7, 8, 9, 10],
+                               [11, 12, 13, 14, 15]],
+                              index=["a", "b", "c"],
+                              columns=["aa", "bb", "cc", "dd", "ee"])
 df_Example.index.name = "Rows"
 print("\n DataFrame df_Example:")
 print(df_Example)
@@ -18,12 +18,8 @@ print("\n transposed DataFrame df_Example:")
 print(df_Example.T)
 
 # Пример DataFrame из списка двух частично перекрывающихся словарей
-df_Dict = pandas.DataFrame(
-    [
-        {'a': 1, 'b': 2},
-        {'b': 3, 'c': 4}
-    ]
-)
+df_Dict = pandas.DataFrame([{'a': 1, 'b': 2},
+                            {'b': 3, 'c': 4}])
 # Этот промежуточный вывод нужен для примитивных сред, например, IDLE
 print("\n DataFrame df_Dict:\n", df_Dict)
 # print("\n transposed DataFrame df_Dict:\n", df_Dict.T)
@@ -64,11 +60,9 @@ for count in range(Deepness):
     RowNames.append("s_" + str(count))
 
 # Формируем DataFrame из ListOne2
-df_ListOne2 = pandas.DataFrame(
-    ListOne2,
-    index=RowNames,
-    columns=ColumnNames
-)
+df_ListOne2 = pandas.DataFrame(ListOne2,
+                               index=RowNames,
+                               columns=ColumnNames)
 print(" DataFrame df_ListOne2:\n", df_ListOne2)
 
 # Делаем список диапазоном с 1 до 120 с шагом 10

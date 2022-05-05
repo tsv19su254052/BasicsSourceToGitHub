@@ -1,11 +1,13 @@
 # -*- coding: utf-8 -*-
 # Версия интерпретатора 3.6 (работает на 3.7)
 
+
 import itertools
 import os
 import sys
 import platform
 #import cpuinfo # такой библиотеки не найдено
+
 
 Source = 'aad', 'aae', 'aad', 'aad', 'fgh', 'aad', 'fgh', 1, 8, 12, 'rfg', '554', 2, 'Aae'
 print(Source)

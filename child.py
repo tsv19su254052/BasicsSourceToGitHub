@@ -1,5 +1,6 @@
 import sys
 
+
 word = sys.stdin.readline().rstrip()
 filename = sys.stdin.readline().rstrip()
 try:

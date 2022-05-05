@@ -4,11 +4,13 @@
 
 # Импорт пользовательской библиотеки (файла в этой же папке)
 # from Class_RootObjectClass import RootObjectClass
+
+
 import Class_RootObjectClass
 import AbstractClass_RootObjectAbstractClass
 
-# Интерфэйсы, декораторы, метаклассы ...
 
+# Интерфэйсы, декораторы, метаклассы ...
 # Сделать наследника без расширения функционала и сразу дать параметры на вход конструктору
 o = Class_RootObjectClass.RootObjectClass("Hunter Jake", True)
 a = AbstractClass_RootObjectAbstractClass.RootObjectAbstractClass("Shannon and Patrice", False)

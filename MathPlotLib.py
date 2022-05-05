@@ -1,10 +1,14 @@
+# Interpreter 3.7
+
+
 import matplotlib.pyplot
 import numpy
 
+
 """
-%matplotlib - интерактивный режим в iPython
-%matplotlib notebook - интерактивные графики внутри Notebokk-а
-%matplotlib inline - статические изображения графиков внутри Notebook-а 
+matplotlib - интерактивный режим в iPython
+matplotlib notebook - интерактивные графики внутри Notebokk-а
+matplotlib inline - статические изображения графиков внутри Notebook-а 
 """
 
 plt = matplotlib.pyplot

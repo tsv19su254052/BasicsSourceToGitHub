@@ -28,6 +28,7 @@ Created on Sat Mar 24 19:29:10 2018
 # Выяснение типа данных по ходу работы скрипта не имеет смысла, так как
 # Python имеет динамическую типизацию
 
+
 import math
 import decimal
 import os
@@ -61,7 +62,6 @@ if not k and a == 5:
 if e_nan:
     print(" e=", str(e_nan))
 
-
 j = math.pow(3, 4)
 # j = 3 ** 4 - 81
 y = math.log(5, 10)
@@ -78,7 +78,6 @@ if ee_nan == e_NaN:
     print(" ee_nan -> e_NaN")
 if e_nan == e_NaN:
     print(" e -> e_NaN")
-
 
 # Последовательности (кортежи, списки, словари)
 
@@ -151,7 +150,7 @@ print("Имя главного модуля скрипта = ", str(__name__))
 
 # Срез списка
 d1 = d[2:4]
-d2 =d[2:6:2]
+d2 = d[2:6:2]
 # С помощью функции
 d3 = d[slice(2, 6, None)]
 d4 = d[slice(2, None, 2)]
