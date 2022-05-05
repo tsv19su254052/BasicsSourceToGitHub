@@ -1,6 +1,8 @@
 # Interpreter 3.7
 
+
 import pandas
+
 
 # Простой пример DataFrame из трех списков
 df_Example = pandas.DataFrame(
