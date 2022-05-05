@@ -2,6 +2,7 @@
 
 
 # правки по оформлению
+# правка 02
 import asyncio
 import aiohttp
 import aiofiles
