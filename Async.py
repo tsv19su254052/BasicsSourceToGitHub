@@ -15,6 +15,6 @@ print(myhostname)
 myfqdn = socket.getfqdn(myhostname)
 print(myfqdn)
 print(platform.node())
-#hostname = os.uname()[1]
+hostname = os.uname()[1]
 hostname = platform.uname()
 print(hostname)
