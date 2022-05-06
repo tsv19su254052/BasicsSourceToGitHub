@@ -9,7 +9,7 @@ try:
             current = fh.readline()
             if not current:
                 break
-            if (word in current ):
+            if word in current:
                 print("find: {0} {1}".format(filename,word))
 except:
     pass

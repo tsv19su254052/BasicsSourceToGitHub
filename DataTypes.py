@@ -93,9 +93,9 @@ print('c = ', c)
 # Список - изменяемый
 # d = list((1, 2, 3, 4, 5))
 d = [1, 2, 3, 4, 5, 6]
-d[1] = 3;
+d[1] = 3
 d *= 2
-d.append(6);
+d.append(6)
 d.insert(0, 'Начало списка')  # несколько команд в одну строку
 d.append('Окончание списка')
 d.remove(5)  # удаление по содержимому
@@ -136,11 +136,11 @@ print('dd2 = ')
 print(dd2)
 
 # Словарь - изменяемый, хэш-таблица
-# m = dict(Ivan='Palich', Vasiliy='Valeriy')
-m = {'Ivan':'Palich', 'Vasiliy':'Valeriy'}
-m['Vanya'] = 'Vasilev'
-print(m.get('Vanya'))
-print(m.get("Empty"))
+m1 = dict(Ivan='Palich', Vasiliy='Valeriy')
+m2 = {'Ivan': 'Palich', 'Vasiliy': 'Valeriy'}
+m2['Vanya'] = 'Vasilev'
+print(m2.get('Vanya'))
+print(m2.get("Empty"))
 
 # Строка
 st = 'MainName'

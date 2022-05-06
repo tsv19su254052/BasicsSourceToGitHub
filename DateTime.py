@@ -23,4 +23,3 @@ print("   Дата и время", DateTime)
 print("   Дата и время", str(DateTime))
 
 # см. Простой Python стр. 295
-

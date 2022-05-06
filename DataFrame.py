@@ -60,9 +60,7 @@ for count in range(Deepness):
     RowNames.append("s_" + str(count))
 
 # Формируем DataFrame из ListOne2
-df_ListOne2 = pandas.DataFrame(ListOne2,
-                               index=RowNames,
-                               columns=ColumnNames)
+df_ListOne2 = pandas.DataFrame(ListOne2, index=RowNames, columns=ColumnNames)
 print(" DataFrame df_ListOne2:\n", df_ListOne2)
 
 # Делаем список диапазоном с 1 до 120 с шагом 10

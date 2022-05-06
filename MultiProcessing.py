@@ -11,8 +11,7 @@ def doubler(number):
     """
     result = number * 2
     proc = os.getpid()
-    print('{0} doubled to {1} by process id: {2}'.format(
-        number, result, proc))
+    print('{0} doubled to {1} by process id: {2}'.format(number, result, proc))
 
 
 if __name__ == '__main__':
