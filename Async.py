@@ -10,7 +10,7 @@ import platform
 import os
 
 
-# ветка Developers на GitHub-е - правка tsv19su 02
+# ветка Developers на GitHub-е - моя правка
 myhostname = socket.gethostname()
 print(myhostname)
 myfqdn = socket.getfqdn(myhostname)
