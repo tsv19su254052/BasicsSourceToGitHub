@@ -10,6 +10,7 @@ import platform
 import os
 
 
+# ветка на GitHub-е Developers
 myhostname = socket.gethostname()
 print(myhostname)
 myfqdn = socket.getfqdn(myhostname)
