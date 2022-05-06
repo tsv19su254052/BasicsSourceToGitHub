@@ -6,7 +6,7 @@ import matplotlib
 import numpy
 
 
-# Есть интеграция с DataFrame из Pandas
+# Есть интеграция с DataFrame из Pandas - моя правка 02
 seaborn.set()
 # Задаем диапазон и число точек вычисления
 x = numpy.linspace(0, 15, 10000000)  # больше 10000000 не делать
