@@ -12,8 +12,8 @@ seaborn.set()
 x = numpy.linspace(0, 15, 100000)  # больше 10000000 не делать
 
 # Считаем облако точек
-y = numpy.sin(x)
-#y = numpy.cos(x)
+#y = numpy.sin(x)
+y = numpy.cos(x)
 print(" x = ", x, "\n y = ", y)
 
 # Выводим облако точек
