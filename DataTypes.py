@@ -38,10 +38,12 @@ bool1 = True  # логическое
 bool2 = False
 a = 5  # Целое
 b = 10.5  # Вещественное
+
 e_nan = float('nan')  # неопределенное вещественное
 infinity1 = float('inf')  # бесконечно большое вещественное
 infinity2 = float('inf')
 negative_infinity = float('-inf')  # минус бесконечность
+
 k = None  # выражения с None не работают -> ошибка, в условиях не False и не True
 x = complex(a, b)  # Комплексное число
 b += 2
