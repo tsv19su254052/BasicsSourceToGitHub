@@ -33,7 +33,6 @@ import math
 import decimal
 import os
 
-
 # Числа
 bool1 = True  # логическое
 bool2 = False
@@ -50,7 +49,7 @@ b *= 5
 b /= 1.5
 f = a / b
 h = b ** a
-g = 0x118  # целое в 16-чной форме
+g = 0x118  # целое в 16-ной форме
 q = 1.87e50
 
 res1 = infinity1 - infinity2  # бесконечность - бесконечность = неопределенное число
@@ -66,6 +65,7 @@ j = math.pow(3, 4)
 # j = 3 ** 4 - 81
 y = math.log(5, 10)
 ee_nan = math.nan  # с помощью библиотеки math
+
 if math.isnan(ee_nan):
     print(" ee_nan =", str(ee_nan))
 
@@ -74,8 +74,10 @@ e_NaN = decimal.Decimal('nan')
 # nan не равно nan и не равно NaN
 if e_nan == ee_nan:
     print(" e -> ee_nan")
+
 if ee_nan == e_NaN:
     print(" ee_nan -> e_NaN")
+
 if e_nan == e_NaN:
     print(" e -> e_NaN")
 
