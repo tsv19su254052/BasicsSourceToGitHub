@@ -5,7 +5,7 @@ import sys
 
 child = os.path.join(os.path.dirname(__file__), "./child.py")
 word = 'word'
-file = ['parent.py','child.py']
+file = ['parent.py', 'child.py']
 pipes = []
 for i in range(0,2):
     command = [sys.executable, child]
