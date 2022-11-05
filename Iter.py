@@ -11,9 +11,11 @@ import platform
 
 Source = 'aad', 'aae', 'aad', 'aad', 'fgh', 'aad', 'fgh', 1, 8, 12, 'rfg', '554', 2, 'Aae'
 print(Source)
+
 # Убираем повторы без сохранения того же порядка
 OutPut = set(Source)
 print(OutPut)
+
 # Убираем только повторы, идущие подряд, но с сохранением исходного порядка
 OutPutNew = [el for el, _ in itertools.groupby(Source)]
 print(OutPutNew)
