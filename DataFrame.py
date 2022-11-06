@@ -24,6 +24,7 @@ df_Dict = pandas.DataFrame([{'a': 1, 'b': 2},
 print("\n DataFrame df_Dict:\n", df_Dict)
 # print("\n transposed DataFrame df_Dict:\n", df_Dict.T)
 
+
 # Объявляем исходный список
 ListOne = []
 # Длина списка
@@ -37,6 +38,7 @@ for count in range(Length):
 ListOne.insert(0, "Начало")
 # Добавляем в конец
 ListOne.append("Окончание")
+
 
 # Делаем двухмерный список ListOne2 Каждая строка - список ListOne
 # Высота нового списка
