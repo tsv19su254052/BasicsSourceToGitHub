@@ -1,4 +1,5 @@
 # Interpreter 3.7
+# Для удобства чтения начинающими программистами обзацы разделены отступами
 
 
 import pandas
@@ -13,6 +14,7 @@ df_Example = pandas.DataFrame([[1, 2, 3, 4, 5],
 df_Example.index.name = "Rows"
 print("\n DataFrame df_Example:")
 print(df_Example)
+
 # Транспонирование (меняем строки и столбцы местами
 print("\n transposed DataFrame df_Example:")
 print(df_Example.T)
@@ -27,15 +29,20 @@ print("\n DataFrame df_Dict:\n", df_Dict)
 
 # Объявляем исходный список
 ListOne = []
+
 # Длина списка
 print("Введите длину строки DataFrame-а = ", end=" ")
+
 # Ввод с клавиатуры (для надежности приводим к типу int)
 Length = int(input())  # например, 25 столбцов
+
 # Определяем исходный список
 for count in range(Length):
     ListOne.append("cs_" + str(count))
+
 # Вставляем в начало и сдвигаем остальное вправо
 ListOne.insert(0, "Начало")
+
 # Добавляем в конец
 ListOne.append("Окончание")
 
@@ -43,6 +50,7 @@ ListOne.append("Окончание")
 # Делаем двухмерный список ListOne2 Каждая строка - список ListOne
 # Высота нового списка
 print("Введите количество строк DataFrame = ", end=" ")
+
 # Ввод с клавиатуры (для надежности приводим к типу int)
 Deepness = int(input())  # например, 45 строк
 ListOne2 = [ListOne] * Deepness
