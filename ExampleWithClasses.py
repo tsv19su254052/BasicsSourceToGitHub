@@ -15,6 +15,7 @@ import AbstractClass_RootObjectAbstractClass
 o = Class_RootObjectClass.RootObjectClass("Hunter Jake", True)
 a = AbstractClass_RootObjectAbstractClass.RootObjectAbstractClass("Shannon and Patrice", False)
 
+
 # Наследник должен работать только следующим образом:
 # - брать параметры на вход,
 # - присваивать их своим внутренним переменным,
