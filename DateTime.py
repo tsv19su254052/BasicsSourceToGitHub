@@ -18,7 +18,6 @@ a = list(range(2, 3500000))
 EndTime = datetime.datetime.now()
 print(" Время выполнения - ", str(EndTime - StartTime))
 
-
 # Дата и время сейчас
 Now = time.time()
 DateTime = time.ctime(Now)
