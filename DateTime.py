@@ -5,7 +5,6 @@ import sys
 
 StartTime = datetime.datetime.now()
 
-
 print(' Дата и время = ', StartTime)
 print(' Месяц = ', StartTime.month)
 print(' День = ', StartTime.day)
@@ -13,7 +12,6 @@ print(' Час = ', StartTime.hour)
 print(' Минуты = ', StartTime.minute)
 
 a = list(range(2, 3500000))
-
 
 EndTime = datetime.datetime.now()
 print(" Время выполнения - ", str(EndTime - StartTime))

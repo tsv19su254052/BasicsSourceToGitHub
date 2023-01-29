@@ -126,7 +126,6 @@ dexSint = sorted(dexS, key=lambda x: isinstance(x, int))
 dex2 = ['nan' for i in range(20)]
 dex2S = set(dex2)
 
-
 # Вложенный список (двухмерный массив - матрица)
 # dd = list(((1., 2., 3.,), (4., 5., 6.), (7., 8., 9.)))
 dd = [[1., 2., 3.], [4., 5., 6.], [7., 8., 9.]]
