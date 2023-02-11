@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Версия интерпретатора 3.6 (работает на 3.7)
+# Interpreter 3.7 -> 3.11
 
 
 import itertools

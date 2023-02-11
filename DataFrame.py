@@ -15,9 +15,11 @@ df_Example.index.name = "Rows"
 print("\n DataFrame df_Example:")
 print(df_Example)
 
+
 # Транспонирование (меняем строки и столбцы местами
 print("\n transposed DataFrame df_Example:")
 print(df_Example.T)
+
 
 # Пример DataFrame из списка двух частично перекрывающихся словарей
 df_Dict = pandas.DataFrame([{'a': 1, 'b': 2},

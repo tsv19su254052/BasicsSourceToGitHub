@@ -1,3 +1,5 @@
+# Interpreter 3.7 -> 3.11
+
 """
 Created on Sat Mar 24 19:29:10 2018
 
@@ -32,6 +34,7 @@ Created on Sat Mar 24 19:29:10 2018
 import math
 import decimal
 import os
+
 
 # Числа
 bool1 = True  # логическое

@@ -1,4 +1,4 @@
-# Interpreter 3.7
+# Interpreter 3.7 -> 3.11
 
 
 # правки по оформлению
