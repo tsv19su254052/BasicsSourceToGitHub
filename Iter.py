@@ -36,6 +36,6 @@ finally:
 
 print(String)
 
-os.rename("DataSQL33.json", "DataSQL.json")
+#os.rename("DataSQL33.json", "DataSQL.json")
 
 #cpuinfo.cpu.info()
