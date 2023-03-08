@@ -1,0 +1,6 @@
+[submodule "ExternalRepos/Code-for-Blog"]
+	path = ExternalRepos/Code-for-Blog
+	url = https://github.com/eliben/code-for-blog
+[submodule "ExternalRepos/HoldSond"]
+	path = ExternalRepos/HoldSond
+	url = https://gist.github.com/holesond/b4f9db4b24eca00ef8b01a96c6e53a03
